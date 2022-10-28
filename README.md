@@ -2,6 +2,8 @@
 This repo includes the Dockerfile and Jenkinsfile inside the container that I have built, the container itself already has a prebuilt python job that can execute main.py.
 
 The only thing that I couldn't get working is to get the job to initiate while a merge request is going on, this is due to the Gitlab Webhook not accepting any localhost URL's, however if the jenkins container was given a public IP, a job would initiate upon a merge request if a webhook is configured in the repository settings.
+Note: After cloning the repository on Github, I'll look more into Webhooks with 
+Github and whether I can solve the final piece of the Homework with it.
 
 
 To run the container itself:
